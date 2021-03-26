@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="images/stop.png">
+    <script src="script/jquery.js"></script>
+    <link rel="stylesheet" href="css/index.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch</title>
+</head>
+<body>
+    <div>
+        <h1>Stopwatch</h1>
+        <img id="main" src="images/stop.png" alt="">
+        <img id="left" src="images/side.png" alt="">
+        <img id="right" src="images/side.png" alt="">
+    </div>
+    
+    <div class="container">
+        <h2 id="timed">Time</h2>
+        <input id="time" type="text" >
+        <h2 id="lap">Lap</h2>
+        <input id="two" type="text">
+    </div>
+    <br>
+    <br>
+    <div class="container">
+        <button onclick="startLoop()" id="button1">Start</button>
+        <button onclick="stopLoop()" id="button2">Stop/Reset</button>
+        <button onclick="laploop()" id="button3">Lap</button>
+    </div>
+</body>
+<script src="script/index.js"></script>
+</html>
